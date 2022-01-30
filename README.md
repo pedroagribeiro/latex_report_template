@@ -1,4 +1,4 @@
-# Scoututor - Technical Report
+# General purpose latex template report 
 
 ## Environment setup
 
