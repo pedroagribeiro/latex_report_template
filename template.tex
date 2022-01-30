@@ -1,0 +1,49 @@
+% ==============================================================================
+% Author Name: Pedro Alexandre Gonçalves Ribeiro
+% ------------------------------------------------------------------------------
+% Institution 
+% Department 
+% ------------------------------------------------------------------------------
+% Project                                                                  Year 
+% ==============================================================================
+\documentclass[16pt,a4paper]{report}
+
+\usepackage{config}
+\usepackage{float}
+
+\title{
+  Project Name \\
+  \textbf{Project Name} \\
+  Document description 
+}
+
+\author{
+  Pedro Ribeiro\\ Mechanographical number \and
+  Another Collaborator\\
+}
+
+\date{\today} %data
+
+\begin{document}
+
+\maketitle
+
+
+\tableofcontents
+%\listoffigures
+%\listoftables
+
+\input{sections/00-abstract.tex}
+\input{sections/01-introduction.tex}
+\input{sections/02-body.tex}
+\input{sections/03-conclusion.tex}
+
+% \bibliographystyle{plain} % [1] Numérico pela ordem de citação ou ordem alfabetica
+% \bibliographystyle{alpha} % [Hen18] abreviação do apelido e data da publicação
+% \bibliographystyle{apalike} % (Araujo, 2018) apelido e data da publicação
+                             % --para usar este estilo descomente no inicio o comando \usepackage{apalike}
+\bibliographystyle{plain}
+
+\bibliography{references} %input do ficheiro de referencias bibliograficas
+
+\end{document}

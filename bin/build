@@ -1,0 +1,4 @@
+#!/bin/bash
+
+docker exec -it latex_project_name make pdf
+rm -f *.out *.lof *.lot *.fdb_latexmk *.aux *.bbl *.bcf *.blg *.fls *.log *.run.xml *.toc *.synctex.gz *.dvi *.aux *.fdb_latexmk *.fls

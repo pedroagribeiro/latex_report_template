@@ -1,0 +1,8 @@
+version: "3.3"
+
+services:
+  latex:
+    build: .
+    container_name: latex_project_name
+    volumes:
+      - .:/data
